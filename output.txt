@@ -1,0 +1,94 @@
+Function
+    Begin
+        Type
+            int [int]
+        FunctionName [zxc]
+        { [{]
+    Descriptions
+        Descr
+            Type
+                int [int]
+            VarList
+                Id [aaa]
+            ; [;]
+    Operators
+        Op
+            for [for]
+            ( [(]
+            Init
+                Id [i]
+                = [=]
+                SimpleExpr [0]
+                ; [;]
+            Condition
+                SimpleExpr [i]
+                RelationsOperators [>]
+                SimpleExpr [10]
+                ; [;]
+            Expr
+                SimpleExpr [i]
+                + [+]
+                SimpleExpr [1]
+            ) [)]
+            { [{]
+            Operators
+                Op
+                    Id [qwe]
+                    = [=]
+                    Expr
+                        Expr
+                            SimpleExpr [q]
+                            + [+]
+                            SimpleExpr [w]
+                        + [+]
+                        SimpleExpr [e]
+                    ; [;]
+                Op
+                    Id [b]
+                    = [=]
+                    Expr
+                        SimpleExpr [6]
+                        - [-]
+                        SimpleExpr
+                            ( [(]
+                            Expr
+                                SimpleExpr [h]
+                                + [+]
+                                SimpleExpr [5]
+                            ) [)]
+                    ; [;]
+                Op
+                    for [for]
+                    ( [(]
+                    Init
+                        Id [pppppp]
+                        = [=]
+                        SimpleExpr [0]
+                        ; [;]
+                    Condition
+                        SimpleExpr [i]
+                        RelationsOperators [!=]
+                        SimpleExpr [10]
+                        ; [;]
+                    Expr
+                        SimpleExpr [pppppp]
+                        + [+]
+                        SimpleExpr [1]
+                    ) [)]
+                    { [{]
+                    Operators
+                        Op
+                            Id [a]
+                            = [=]
+                            Expr
+                                SimpleExpr [a]
+                                + [+]
+                                SimpleExpr [x]
+                            ; [;]
+                    } [}]
+            } [}]
+    End
+        return [return]
+        Id [meow]
+        ; [;]
+        } [}]

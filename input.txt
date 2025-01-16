@@ -1,0 +1,14 @@
+int zxc() {
+
+    int aaa; 
+
+    for (i = 0; i > 10; i + 1) 
+        qwe = q + w + e;
+        b = 6 - (h + 5);
+         for (pppppp = 0; i != 10; pppppp + 1) { 
+         a = a + x;
+         }
+    }
+    return meow;
+}
+
